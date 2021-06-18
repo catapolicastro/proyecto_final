@@ -1,0 +1,240 @@
+/* Etiquetas genéricas*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color:   black ;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Caja Flexbox Header */
+  header {
+    width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+  }
+  #buscador {
+    margin-left: 20px;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  #brainstorm {
+    width: 200px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .CajaFlexHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .hijo1 {
+    text-align: center;
+  }
+  .hijo2 {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #ee3ec9;
+  }
+  
+  /* Caja Grid Main */
+  
+  .CajaGrid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: "main aside";
+  }
+  .hijo3 {
+    grid-area: main;
+    color: white;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+  }
+  .hijo4 {
+    grid-area: aside;
+    color: white;
+    width: 90%;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #ee3ec9 ;
+  }
+  .ParrafoCuerpo {
+    margin: 20px;
+  }
+  h3 {
+    color: #ee3ec9;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .TextoAside {
+    text-align: justify;
+    padding: 20px;
+  }
+  .ListadoAside {
+    display: block;
+    text-align: left;
+  }
+  #Calendario {
+  height: 300px;
+  width: 90%;
+  margin: 15px;
+   }
+  aside {
+    background-color:#272a29;
+  }
+  .TituloAside {
+    padding-top: 10px;
+  }
+  
+  /* Caja Flexbox Footer */
+  
+  .CajaFlexFooter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+  }
+  .hijo5 {
+    color: white;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .hijo6 {
+    text-align: center;
+  }
+  form {
+   margin-left: 20px;
+   font-size: 15px;
+  }
+  .imgredes {
+    width: 40px;
+  }
+  
+  /* Página "Cursos" */
+  
+  .TituloTabla {
+    font-weight: bolder;
+  }
+  
+  table {
+    border-top-color: #ee3ec9;
+    border-bottom-color: #ee3ec9;
+    border-left-color: #ee3ec9;
+    border-right-color:#ee3ec9;
+    text-align: center;
+    margin-top: 30px;
+  }
+  td {
+    padding: 10px;
+    border-top-color: #ee3ec9;
+    border-bottom-color: #ee3ec9;
+    border-left-color: #ee3ec9;
+    border-right-color:#ee3ec9;
+  }
+  
+  /* Página Profesionales */
+  
+  .CajaGrid2 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100px 400px 100px 400px 100px 400px ;
+    grid-template-areas: "titulo1 titulo1 aside"
+                          "foto1 parrafo1 aside"
+                          "titulo2 titulo2 aside"
+                          "foto2 parrafo2 aside"
+                          "titulo3 titulo3 aside"
+                          "foto3 parrafo3 aside";
+  
+  }
+  
+  .hijo3a {
+    grid-area: titulo1;
+  }
+  .hijo3b {
+    grid-area: foto1;
+  }
+  .hijo3c {
+    grid-area: parrafo1;
+    color: white;
+    text-align: justify;
+    padding-top: 20px;
+    width: 90%;
+  }
+  .hijo3d {
+    grid-area: titulo2;
+  }
+  .hijo3e {
+    grid-area: foto2;
+  }
+  .hijo3f {
+    grid-area: parrafo2;
+    color: white;
+    text-align: justify;
+    padding-top: 20px;
+    width: 90%;
+  }
+  .hijo3g {
+    grid-area: titulo3;
+  }
+  .hijo3h {
+    grid-area: foto3;
+  }
+  .hijo3i {
+    grid-area: parrafo3;
+    color: white;
+    text-align: justify;
+    padding-top: 20px;
+    width: 90%;
+  }
+  .hijo4 {
+    grid-area: aside;
+    width: 90%;
+  }
+  
+  
+  .imagenprof {
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  
+  /* Página Clientes */
+  
+  .ImagenLogo {
+    width: 150px;
+    margin-left: 10px;
+  }
+  main {
+    margin-left: 10px;
+  }
+  
+  #buscador {
+      width: 120px; height: 20px;
+      transition: all 2s;       
+   }
+   #buscador:focus {
+      width: 200px;
+   }
+   

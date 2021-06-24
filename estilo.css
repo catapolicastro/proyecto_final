@@ -22,9 +22,9 @@
   #buscador {
     margin-left: 20px;
   }
-  li a {
-    text-decoration: none;
+  a {
     color: white;
+    text-decoration: none;
   }
   #brainstorm {
     width: 200px;
@@ -139,19 +139,20 @@
   }
   
   table {
-    border-top-color: #ee3ec9;
-    border-bottom-color: #ee3ec9;
-    border-left-color: #ee3ec9;
-    border-right-color:#ee3ec9;
     text-align: center;
     margin-top: 30px;
+    border-color: #272a29;
   }
   td {
     padding: 10px;
-    border-top-color: #ee3ec9;
-    border-bottom-color: #ee3ec9;
-    border-left-color: #ee3ec9;
-    border-right-color:#ee3ec9;
+    border-color:#272a29;
+  }
+  #TablaFila2 {
+    background-color: #272a29;
+  }
+
+  #TablaFila4  {
+    background-color: #272a29;
   }
   
   /* Página Profesionales */

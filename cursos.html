@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> 
@@ -26,7 +27,7 @@
             </div>
             <div class="hijo2"> 
                 <a href="inicio.html"><img src="brainstorm.gif" id="brainstorm"></a>
-                <h1 class="titulo1">Cursos</h1>
+                <h1 class="display-4" class="titulo1">Cursos</h1>
             </div>
         </header>   
     </div>
@@ -120,38 +121,44 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <table border="2">
-                    <tr class="TituloTabla">
-                        <td>Cursos</td>
-                        <td>Descripción</td>
-                        <td>Precio</td>
-                        <td>Duración</td>
-                    </tr>
-                    <tr class="FilasTabla">
-                        <td>Curso 1</td>
-                        <td class="TextoTabla">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
+                <!--TABLA BS-->
+                <table class="table table-dark table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Cursos</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Duración</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Curso 1</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
                             utem id neque vel, labore deserunt, officiis, consectetur officia ipsam
                             aperiam cum sequi saepe. Ex qui perferendis rerum quia.</td>
                         <td>$2000</td>
-                        <td>1 Mes</td>
-                    </tr>
-                    <tr class="FilasTabla">
-                        <td>Curso 2</td>
-                        <td class="TextoTabla">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
+                        <td>1 mes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Curso 2</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
                             autem id neque vel, labore deserunt, officiis, consectetur officia ipsam
                             aperiam cum sequi saepe. Ex qui perferendis rerum quia.</td>
                         <td>$5000</td>
-                        <td>2 Meses</td>
-                    </tr>
-                    <tr class="FilasTabla">
-                        <td>Curso 3</td>
-                        <td class="TextoTabla">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
+                        <td>2 meses</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Curso 3</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia aut
                             autem id neque vel, labore deserunt, officiis, consectetur officia ipsam
                             aperiam cum sequi saepe. Ex qui perferendis rerum quia.</td>
                         <td>$10.000</td>
-                        <td>6 Meses</td>
-                    </tr>
-                </table>
+                        <td>6 meses</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
             </div>
             <div class="hijo4">
                 <aside>
@@ -175,8 +182,7 @@
                             id="Calendario">
                         </iframe>
                 </aside>
-            </div>
-            
+            </div>   
         </div>
     </main>
     
@@ -199,7 +205,8 @@
                         <input type="email" name="required">
                         <p>Consulta:</p>
                         <input type="text" name="">
-                        <div id="checkbox">Acepta términos y condiciones</div>
+                        <!--TEXT-MUTED BS-->
+                        <div class="text-muted" id="checkbox">Acepta términos y condiciones</div>
                         <input type="checkbox" name="acepta" value="1">
                         <input type="reset" value="Volver" />
                         <input type="submit" name="submit">
@@ -212,5 +219,6 @@
             </div>
         </div> 
     </footer> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

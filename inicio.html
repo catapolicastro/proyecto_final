@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Storm</title>
-    <link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="estilo.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> 
 </head>
@@ -16,17 +17,17 @@
                 <nav>
                     <ul>
                         <input type="text" name="search" placeholder="Buscar" id="buscador">
-                        <li><a href="inicio.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="Cursos.html">Cursos</a></li>
-                        <li><a href="profesionales.html">Profesionales</a></li>
-                        <li><a href="nuestrosclientes.html">Nuestros Clientes</a></li>
+                        <li><a href="inicio.html" class="menu">Inicio</a></li>
+                        <li><a href="nosotros.html" class="menu">Nosotros</a></li>
+                        <li><a href="Cursos.html" class="menu">Cursos</a></li>
+                        <li><a href="profesionales.html" class="menu">Profesionales</a></li>
+                        <li><a href="nuestrosclientes.html" class="menu">Nuestros Clientes</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="hijo2"> 
                <a href="inicio.html"><img src="brainstorm.gif" id="brainstorm"></a>
-                <h1 class="titulo1">Bienvenidos!</h1>
+                <h1 class="display-4" class="titulo1">Bienvenidos!</h1>
             </div>
         </header>   
     </div>
@@ -123,7 +124,7 @@
                         <input type="email" name="required">
                         <p>Consulta:</p>
                         <input type="text" name="">
-                        <div id="checkbox">Acepta términos y condiciones</div>
+                        <div id="checkbox" class="text-muted">Acepta términos y condiciones</div>
                         <input type="checkbox" name="acepta" value="1">
                         <input type="reset" value="Volver" />
                         <input type="submit" name="submit">
@@ -136,5 +137,6 @@
             </div>
         </div> 
     </footer> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
 </html>

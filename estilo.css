@@ -24,7 +24,7 @@
   }
   a {
     color: white;
-    text-decoration: none;
+    text-decoration: #ee3ec9;
   }
   #brainstorm {
     width: 200px;
@@ -100,7 +100,7 @@
   width: 90%;
   margin: 15px;
    }
-  aside {
+  .aside {
     background-color:#272a29;
   }
   .TituloAside {
@@ -238,4 +238,33 @@
    #buscador:focus {
       width: 200px;
    }
-   
+
+  #menu1 {
+    color: white;
+    text-decoration: none;
+  }
+  #menu2 {
+    color: white;
+    text-decoration: none;
+  }
+  #menu3 {
+    color: white;
+    text-decoration: none;
+  }
+  #menu4 {
+    color: white;
+    text-decoration: none;
+  }
+  #menu5 {
+    color: white;
+    text-decoration: none;
+  }
+  /* Carrouseles */
+  .carousel { 
+      width: 300px; 
+      height: 150px;
+      margin: auto;
+      margin-top: 20px;
+
+
+  }

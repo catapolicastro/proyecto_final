@@ -10,22 +10,24 @@
   /* Caja Flexbox Header */
   header {
     width: 100%;
-  }
-  ul {
-    list-style: none;
-  }
-  li {
-    display: inline-block;
-    margin: 30px;
     text-align: center;
   }
-  #buscador {
-    margin-left: 20px;
-  }
-  a {
-    color: white;
-    text-decoration: #ee3ec9;
-  }
+ .navbar-brand {
+   font-size: 18px;
+   margin-left: 20px;
+ }
+ .form-control {
+    background-color: black;
+ }
+ .btn {
+   color: #ee3ec9;
+   border-color: #ee3ec9;
+   margin-left: 10px;
+ }
+ .navbar {
+   width: 100%;
+ }
+
   #brainstorm {
     width: 200px;
     align-items: center;
@@ -86,6 +88,7 @@
     color: #ee3ec9;
     margin-top: 10px;
     margin-left: 20px;
+    font-size: 20px;
   }
   .TextoAside {
     text-align: justify;
@@ -106,7 +109,11 @@
   .TituloAside {
     padding-top: 10px;
   }
-  
+  .a-aside {
+    color: white;
+    padding-left: 30px;
+
+  }
   /* Caja Flexbox Footer */
   
   .CajaFlexFooter {
@@ -230,15 +237,6 @@
   main {
     margin-left: 10px;
   }
-  
-  #buscador {
-      width: 120px; height: 20px;
-      transition: all 2s;       
-   }
-   #buscador:focus {
-      width: 200px;
-   }
-
   #menu1 {
     color: white;
     text-decoration: none;
@@ -265,6 +263,8 @@
       height: 150px;
       margin: auto;
       margin-top: 20px;
-
-
   }
+
+  /* Responsive */
+ 
+    

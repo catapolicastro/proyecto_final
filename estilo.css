@@ -13,7 +13,7 @@
     text-align: center;
   }
  .navbar-brand {
-   font-size: 18px;
+   font-size: 100%;
    margin-left: 20px;
  }
  .form-control {
@@ -29,9 +29,9 @@
  }
 
   #brainstorm {
-    width: 200px;
+    width: 20%;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5%;
   }
   .CajaFlexHeader {
     display: flex;
@@ -45,9 +45,9 @@
     text-align: center;
   }
   h1 {
-    font-size: 40px;
-    margin-top: 10px;
+    margin-top: 5%;
     color: #ee3ec9;
+    width: 100%;
   }
   
   /* Caja Grid Main */
@@ -62,46 +62,46 @@
     grid-area: main;
     color: white;
     width: 90%;
-    padding: 10px;
-    margin: 10px;
+    padding: 2%;
+    margin: 2%;
     text-align: justify;
   }
   .hijo4 {
     grid-area: aside;
     color: white;
-    width: 90%;
-    margin-top: 40px;
-    padding-left: 10px;
-    padding-top: 20px;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-top: 5%;
   }
   h2 {
-    font-size: 30px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     color: #ee3ec9 ;
   }
   .ParrafoCuerpo {
-    margin: 20px;
+    margin: 5%;
   }
-  h3 {
+  h4 {
     color: #ee3ec9;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
   }
   .TextoAside {
-    text-align: justify;
-    padding: 20px;
+    text-align: left;
+    padding: 5%;
   }
   .ListadoAside {
     display: block;
     text-align: left;
+    width: 100%;
   }
   #Calendario {
   height: 300px;
   width: 90%;
-  margin: 15px;
+  margin: 5%;
    }
   .aside {
     background-color:#272a29;
@@ -133,7 +133,6 @@
   }
   form {
    margin-left: 20px;
-   font-size: 15px;
   }
   .imgredes {
     width: 40px;

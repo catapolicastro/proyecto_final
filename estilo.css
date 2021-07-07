@@ -307,6 +307,7 @@ a {
   font-size: 1.5rem;
 }
   /* Responsive */
+
  /* Teléfonos */
 @media only screen and (max-width: 600px) {
   h1 {
@@ -352,6 +353,7 @@ a {
     font-size: 0.75rem;
   } 
 }
+/* Teléfonos Horizontal + Tablet Vertical */
 @media only screen and (min-width: 600px){
   h1 {
     font-size: 3rem;
@@ -398,6 +400,7 @@ a {
   }
   
 }
+/* Tablets grandes */
 @media only screen and (min-width: 768px){
   h1 {
     font-size: 4rem;
@@ -443,6 +446,7 @@ a {
     font-size: 0.8;
   }
 }
+/* Netbook + UP */
 @media only screen and (min-width: 1024px){
   h1 {
     font-size: 4.5rem;

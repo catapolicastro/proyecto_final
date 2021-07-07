@@ -17,6 +17,10 @@
    font-size: 100%;
    margin-left: 20px;
  }
+ .navbar-brand:hover {
+   transform: scale(1.2,1);
+   }
+
  .form-control {
     background-color: black;
  }
@@ -103,6 +107,10 @@
   #Calendario {
   width: 90%;
   margin: 5%
+   }
+
+   #Calendario:hover {
+    height: 300px;
    }
   .aside {
     background-color:#272a29;
@@ -225,7 +233,6 @@
     width: 100%;
   }
   
-  
   .imagenprof {
     width: 80%;
     margin-top: 60px;
@@ -238,25 +245,8 @@
     width: 20%;
     margin-left: 2%;
   }
-  #menu1 {
-    color: white;
-    text-decoration: none;
-  }
-  #menu2 {
-    color: white;
-    text-decoration: none;
-  }
-  #menu3 {
-    color: white;
-    text-decoration: none;
-  }
-  #menu4 {
-    color: white;
-    text-decoration: none;
-  }
-  #menu5 {
-    color: white;
-    text-decoration: none;
+  .ImagenLogo:hover {
+      transform: rotate(10deg);
   }
   /* Carrouseles */
   .carousel { 

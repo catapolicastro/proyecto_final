@@ -68,25 +68,25 @@ h1 {
 .hijo4 {
   grid-area: aside;
   color: white;
-  width: 100%;
   margin-top: 5%;
   padding-left: 2%;
-  padding-top: 5%; }
+  padding-top: 5%;
+  width: 100%; }
 
 h2 {
-  width: 100%;
   margin-left: 5%;
   margin-bottom: 2%;
   margin-top: 2%;
+  width: 100%;
   color: #ee3ec9; }
 
 .ParrafoCuerpo {
   margin: 5%; }
 
 h4 {
-  color: #ee3ec9;
   margin-top: 2%;
-  margin-left: 5%; }
+  margin-left: 5%;
+  color: #ee3ec9; }
 
 .TextoAside {
   text-align: justify;
@@ -107,7 +107,9 @@ h4 {
 
 .aside {
   background-color: #272a29;
-  width: 100%; }
+  width: 100%;
+  width: 100%;
+  background-color: black; }
 
 .TituloAside {
   padding-top: 10%; }
@@ -150,11 +152,20 @@ form {
 table {
   text-align: center;
   margin-top: 10%;
-  border-color: #272a29; }
+  border-color: #272a29;
+  width: 100%;
+  text-align: center;
+  width: 100%; }
 
-td, #TablaFila2, #TablaFila4 {
+td {
   padding: 2%;
-  border-color: #272a29; }
+  background-color: black; }
+
+#TablaFila2 {
+  background-color: black; }
+
+#TablaFila4 {
+  background-color: black; }
 
 /* Página Profesionales */
 .CajaGrid2 {

@@ -100,16 +100,13 @@ h4 {
 
 #Calendario {
   width: 90%;
-  margin: 5%; }
-
-#Calendario:hover {
-  height: 300px; }
+  margin: 5%;
+  align-self: center; }
 
 .aside {
   background-color: #272a29;
   width: 100%;
-  width: 100%;
-  background-color: black; }
+  width: 100%; }
 
 .TituloAside {
   padding-top: 10%; }
@@ -153,19 +150,11 @@ table {
   text-align: center;
   margin-top: 10%;
   border-color: #272a29;
-  width: 100%;
   text-align: center;
   width: 100%; }
 
-td {
-  padding: 2%;
-  background-color: black; }
-
-#TablaFila2 {
-  background-color: black; }
-
-#TablaFila4 {
-  background-color: black; }
+td, th {
+  padding: 2%; }
 
 /* Página Profesionales */
 .CajaGrid2 {
@@ -228,40 +217,6 @@ td {
   margin: auto;
   margin-top: 10%; }
 
-/* Tamaño de fuentes */
-h1 {
-  font-size: 4.5rem; }
-
-h2 {
-  font-size: 3.5rem; }
-
-h3 {
-  font-size: 3rem; }
-
-h4 {
-  font-size: 2rem; }
-
-p {
-  font-size: 1.6rem; }
-
-li {
-  font-size: 2rem; }
-
-form {
-  font-size: 1.2rem; }
-
-#checkbox {
-  font-size: 1.2rem; }
-
-.form-control {
-  font-size: 1.5rem; }
-
-.btn {
-  font-size: 1.5rem; }
-
-a {
-  font-size: 1.5rem; }
-
 /* Responsive */
 /* Teléfonos */
 @media only screen and (max-width: 600px) {
@@ -288,7 +243,13 @@ a {
   .btn {
     font-size: 0.75rem; }
   a {
-    font-size: 0.75rem; } }
+    font-size: 0.75rem; }
+  td, th {
+    font-size: 0.8rem; }
+  th {
+    font-size: 1rem; }
+  #Calendario:hover {
+    height: 20rem; } }
 
 /* Teléfonos Horizontal + Tablet Vertical */
 @media only screen and (min-width: 600px) {
@@ -315,7 +276,13 @@ a {
   a {
     font-size: 1rem; }
   .TextoAside {
-    font-size: 0.7; } }
+    font-size: 0.7; }
+  td, th {
+    font-size: 1.2rem; }
+  th {
+    font-size: 1.4rem; }
+  #Calendario:hover {
+    height: 20rem; } }
 
 /* Tablets grandes */
 @media only screen and (min-width: 768px) {
@@ -342,7 +309,13 @@ a {
   a {
     font-size: 1rem; }
   .TextoAside {
-    font-size: 0.8; } }
+    font-size: 0.8; }
+  td, th {
+    font-size: 1.4rem; }
+  th {
+    font-size: 1.6rem; }
+  #Calendario:hover {
+    height: 25rem; } }
 
 /* Netbook + UP */
 @media only screen and (min-width: 1024px) {
@@ -369,8 +342,10 @@ a {
   a {
     font-size: 1.5rem; }
   .TextoAside {
-    font-size: 1.3; } }
-
-/* MODO DARK */
-p {
-  color: white; }
+    font-size: 1.3; }
+  td, th {
+    font-size: 1.6rem; }
+  th {
+    font-size: 1.8rem; }
+  #Calendario:hover {
+    height: 30rem; } }

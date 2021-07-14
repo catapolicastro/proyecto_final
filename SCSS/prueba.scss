@@ -4,10 +4,8 @@
     padding: 0;
     font-size: 62.5%;
   }
+  $backgroundcolor: black;
 
-  @mixin fondo () {
-    background-color: black;
-  }
   @mixin width () {
       width: 100%;
   }
@@ -18,7 +16,7 @@
       color: #ee3ec9;
   }
   body {
-    @include fondo;
+    background-color: $backgroundcolor;
     font-family: 'Montserrat', sans-serif;
   }
   /* Caja Flexbox Header */
@@ -35,7 +33,7 @@
    }
 
  .form-control {
-    @include fondo;
+    background-color: $backgroundcolor;
  }
  .btn {
    @include colorprincipal;
@@ -119,17 +117,13 @@
   }
   #Calendario {
   width: 90%;
-  margin: 5%
-   }
-
-   #Calendario:hover {
-    height: 300px;
+  margin: 5%;
+  align-self: center;
    }
   .aside {
     background-color:#272a29;
     width: 100%;
     @include width;
-    @include fondo;
   }
   .TituloAside {
     padding-top: 10%;
@@ -176,20 +170,14 @@
     text-align: center;
     margin-top: 10%;
     border-color: #272a29;
-    width: 100%;
     @include centeralign;
     @include width;
   }
   td {
     padding: 2%;
-    @include fondo;
   }
-  #TablaFila2 {
-    @include fondo;
-  }
-
-  #TablaFila4  {
-    @include fondo;
+  th {
+      @extend td;
   }
   
   /* Página Profesionales */
@@ -268,48 +256,7 @@
       margin: auto;
       margin-top: 10%;
   }
-/* Tamaño de fuentes */
 
-h1 {
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
-  font-size: 3rem;
-}
-h4 {
-  font-size: 2rem;
-}
-p {
-  font-size: 1.6rem;
-}
-
-li {
-  font-size: 2rem;
-}
-
-form {
-  font-size: 1.2rem;
-}
-#checkbox {
-  font-size: 1.2rem;
-
-}
-
-.form-control {
-  font-size: 1.5rem;
-}
-.btn {
-  font-size: 1.5rem;
-}
-
-a {
-  font-size: 1.5rem;
-}
   /* Responsive */
 
  /* Teléfonos */
@@ -357,6 +304,17 @@ a {
   a {
     font-size: 0.75rem;
   } 
+td {
+    font-size: 0.8rem;
+}
+th {
+    font-size: 1rem;
+}
+
+#Calendario:hover {
+    height: 20rem;
+   }
+
 }
 /* Teléfonos Horizontal + Tablet Vertical */
 
@@ -404,7 +362,16 @@ a {
   .TextoAside {
     font-size: 0.7;
   }
-  
+    td {
+    font-size: 1.2rem;
+}
+    th {
+    font-size: 1.4rem;
+}
+
+#Calendario:hover {
+    height: 20rem;
+   }
 }
 /* Tablets grandes */
 
@@ -452,6 +419,16 @@ a {
   .TextoAside {
     font-size: 0.8;
   }
+  td {
+    font-size: 1.4rem;
+}
+th {
+    font-size: 1.6rem;
+}
+
+#Calendario:hover {
+    height: 25rem;
+   }
 }
 /* Netbook + UP */
 
@@ -499,16 +476,15 @@ a {
   .TextoAside {
     font-size: 1.3;
   }
+  td {
+    font-size: 1.6rem;
 }
-/* MODO DARK */
-
-$backgroundcolor: black;
-
-p {
-    @if $backgroundcolor == black {
-        color: white;
-    }
-    @else {
-        color: black;
-    }
+th {
+    font-size: 1.8rem;
 }
+
+#Calendario:hover {
+    height: 30rem;
+   }
+}
+

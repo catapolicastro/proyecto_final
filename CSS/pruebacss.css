@@ -196,20 +196,20 @@ table {
   margin-top: 10%; }
 
 /* Página Error */
-.imgError {
+.ImgError {
   width: 10%; }
 
-#h1Error {
+#H1Error {
   color: white; }
 
-.cajaError {
+.CajaError {
   text-align: center; }
 
-.mainError {
+.MainError {
   width: 100%;
   margin-top: 15%; }
 
-#footerError {
+#FooterError {
   margin-top: 10%; }
 
 /* Responsive */

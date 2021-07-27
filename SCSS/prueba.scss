@@ -272,25 +272,6 @@
       margin-top: 10%;
   }
 
-/* Página Error */
-
-  .ImgError {
-    width: 10%;
-  }
-  #H1Error {
-    color: white  ;
-  }
-  .CajaError {
-    text-align: center;
-  }
-  .MainError {
-    width: 100%;
-    margin-top: 15%;
-  }
-  #FooterError {
-    margin-top: 10%;
-  }
-
   /* Responsive */
 
  /* Teléfonos */
@@ -532,3 +513,15 @@ th {
    }
 }
 
+/* Página Error */
+
+.ErrorMain {
+  align-content: center;
+  text-align: center;
+}
+#tituloError {
+  color: white;
+}
+#imgError {
+  width: 15%;
+}
